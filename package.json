@@ -1,0 +1,17 @@
+{
+  "name": "mini-music-player-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "latest",
+    "tailwindcss": "latest",
+    "typescript": "^5",
+    "vite": "^6"
+  }
+}
